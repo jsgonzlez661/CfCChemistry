@@ -1,0 +1,47 @@
+/** Media Queries **/
+.banner {
+  /* alto del banner */
+  min-height: 60vh;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-repeat no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  /*background-attachment: fixed; */}
+  .banner h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s; }
+    @media only screen and (min-width: 576px) {
+      .banner h1 {
+        font-size: 5rem;
+        width: 70%; } }
+        
+.fondo_texto{
+  background-color: black;
+}
+
+.categories {
+  top: 80px !important; }
+
+.post-title {
+  font-size: 3.5rem; }
+
+.recomendations {
+  top: 75px !important; }
+
+footer {
+  color: white;
+  background-color: black;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  footer p {
+    text-align: center;
+    margin: 0; }
